@@ -13,8 +13,7 @@ This project implements an algorithmic trading system for the BSE Ltd Stock usin
 ## Setup
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd algorithm-trading
+   git clone https://github.com/aagams2910/intraday-algorithmic-trading.git
    ```
 
 2. Install dependencies:
@@ -35,12 +34,3 @@ To retrain models:
 python main.py --retrain
 ```
 
-## Project Structure
-- `main.py`: Main execution script
-- `config.py`: Configuration parameters
-- `data_processor.py`: Data loading and feature engineering
-- `models.py`: Model definitions and training
-- `backtester.py`: Backtesting logic
-- `visualizer.py`: Visualization functions
-- `BSE_15m.csv`: Data file
-- `saved_models/`: Directory for saved models
